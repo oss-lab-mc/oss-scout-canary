@@ -1,2 +1,3 @@
 def format_count(value):
-    return f"{value} records"
+    label = "record" if value == 1 else "records"
+    return f"{value} {label}"
